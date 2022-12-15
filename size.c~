@@ -1,0 +1,11 @@
+#include <stdio.h>
+int main()
+{
+  long long int c;
+  printf("size of char: %ldbyte(s)", sizeof(char));
+  printf("size of int: %ldbytes", sizeof(int));
+  printf("size of float: %ldbytes", sizeof(float));
+  printf("size of long int: %ldbytes", sizeof(long int));
+  printf("size of long long int: %ldbytes", sizeof(c));
+  return (0);
+}
