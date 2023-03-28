@@ -1,0 +1,7 @@
+#!/bin/bash/python3
+""" defining a class 'square' """
+class Square:
+    pass
+    """ initizializing the class """
+    def __init__(self, __size):
+        self.__size()
